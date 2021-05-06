@@ -5,7 +5,7 @@ FROM openjdk:11 AS build
 
 MAINTAINER Marc Tönsing <marc@marc.tv>
 
-ARG paperspigot_ci_url=https://papermc.io/api/v1/paper/1.16.5/latest/download
+ARG paperspigot_ci_url=https://papermc.io/api/v2/projects/paper/versions/1.8.8/builds/443/downloads/paper-1.8.8-443.jar
 ENV PAPERSPIGOT_CI_URL=$paperspigot_ci_url
 
 WORKDIR /opt/minecraft
